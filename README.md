@@ -4,7 +4,7 @@ Just a Kucoin Futures version of https://github.com/escwdev/kucoin-node-api/
 
 ## Installation
 
-`npm install kucoin-futures-node`
+`npm install kucoin-futures-node-api`
 
 Alternatively, you can clone/download the repository and import into your project by file path.
 
@@ -15,7 +15,7 @@ To begin using the API wrapper, require it, create a config object that contains
 Example code is as follows:
 
 ```javascript 
-const api = require('./kucoin-futures-node')
+const api = require('./kucoin-futures-node-api')
 
 const config = {
   apiKey: 'xXXXXXXXXXXXXXXXXXXXXxxxxxxxxxxxxxxxxxxxxxXXX',
