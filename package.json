@@ -1,0 +1,26 @@
+{
+  "name": "kucoin-futures-node",
+  "version": "2.0.0",
+  "description": "Node.js KuCoin Futures API",
+  "main": "kucoin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "KuCoin",
+    "API",
+    "v2",
+    "cryptocurrency",
+    "algotrading",
+    "KCS"
+  ],
+  "author": "Micko Magallanes",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ws": "^6.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mickomagallanes/kucoin-futures-node"
+  }
+}
