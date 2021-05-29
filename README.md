@@ -1,4 +1,4 @@
-# kucoin-futures-node
+# kucoin-futures-node-api
 
 Just a Kucoin Futures version of https://github.com/escwdev/kucoin-node-api/
 
