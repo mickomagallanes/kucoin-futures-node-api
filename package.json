@@ -1,6 +1,6 @@
 {
   "name": "kucoin-futures-node-api",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Node.js KuCoin Futures API",
   "main": "kucoin.js",
   "scripts": {
@@ -21,6 +21,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mickomagallanes/kucoin-futures-node-api"
-  }
+    "url": "git+https://github.com/mickomagallanes/kucoin-futures-node-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mickomagallanes/kucoin-futures-node-api/issues"
+  },
+  "homepage": "https://github.com/mickomagallanes/kucoin-futures-node-api#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "license": "ISC"
 }
