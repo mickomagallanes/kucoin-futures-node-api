@@ -640,13 +640,13 @@ params = {
 }
 
 // Public streaming websocket for the orderbook of the provide symbol(s)
-api.initSocket({topic: "orderbook", symbols: ['KCS-BTC']}, (msg) => {
+apiLive.initSocket({topic: "orderbook", symbols: ['KCS-BTC']}, (msg) => {
   let data = JSON.parse(msg)
   console.log(data)
 })
 
 // Private streaming websocket for account balances
-api.initSocket({topic: "balances"}, (msg) => {
+apiLive.initSocket({topic: "balances"}, (msg) => {
   let data = JSON.parse(msg)
   console.log(data)
 })
