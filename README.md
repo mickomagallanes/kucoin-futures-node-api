@@ -653,3 +653,5 @@ apiLive.initSocket({topic: "balances"}, (msg) => {
 ```
 
 The event handler can be programmed to manipulate/store the returned websocket stream data as desired.
+
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) ![Language: Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Framework: Node.JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white)
