@@ -1,6 +1,6 @@
 # kucoin-futures-node-api
 
-Just a Kucoin Futures API version of https://github.com/escwdev/kucoin-node-api/. 
+Just a KuCoin Futures API version of https://github.com/escwdev/kucoin-node-api/. 
 
 ## Installation
 
