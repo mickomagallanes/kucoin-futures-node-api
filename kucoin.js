@@ -47,6 +47,7 @@ class Kucoin {
     header.headers['KC-API-TIMESTAMP'] = nonce
     header.headers['KC-API-KEY'] = this.apiKey
     header.headers['KC-API-PASSPHRASE'] = passphraseResult
+    header.headers['KC-API-KEY-VERSION'] = 2
     return header
   }
 
