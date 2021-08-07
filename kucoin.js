@@ -51,7 +51,7 @@ class Kucoin {
   }
 
   formatQuery(queryObj) {
-    if (JSON.stringify(queryObj).length !== 2) {
+    if (queryObj !== undefined && JSON.stringify(queryObj).length !== 2) {
       return '?' + qs.stringify(queryObj)
     } else {
       return ''
