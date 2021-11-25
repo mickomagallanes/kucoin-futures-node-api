@@ -545,7 +545,7 @@ apiLive.recentFills()
     symbol: string
   }
 */
-apiLive.listFills(params)
+apiLive.getOpenOrderStatistics(params)
 ```
 
 ```javascript
